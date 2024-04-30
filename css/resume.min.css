@@ -74,7 +74,7 @@
   }
   
   .dev-icons {
-      font-size: 3rem
+      font-size: 2rem
   }
   
   .dev-icons .list-inline-item i:hover {
@@ -158,7 +158,7 @@
   }
   
   .bg-primary {
-      background-color: #108C93!important
+      background-color: #1c484a!important
   }
   
   .text-primary {
@@ -176,7 +176,7 @@
   }
   
 .collapsible {
-  background-color: #f1f1f1;
+  background-color: #f4f4f4;
   color: black;
   cursor: pointer;
   padding: 18px;
@@ -188,7 +188,7 @@
 }
 
 .active, .collapsible:hover {
-  background-color: #04666c;
+  background-color: #056d73;
   color: white;
 }
 
@@ -198,5 +198,5 @@
   overflow: hidden;
   width: 80%;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: #f4f4f4;
 }
