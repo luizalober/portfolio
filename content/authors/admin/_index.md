@@ -38,7 +38,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/luizalober
   - icon: brands/linkedin
-    url: https://www.linkedin.com/luizalober
+    url: https://www.linkedin.com/in/luizalober
   - icon: academicons/google-scholar
     url: https://scholar.google.com.br/citations?view_op=list_works&hl=pt-BR&authuser=3&user=IzKOyzIAAAAJ
   - icon: academicons/orcid
