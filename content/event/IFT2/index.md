@@ -37,7 +37,7 @@ image:
 #    name: Follow
 #    url: https://twitter.com/georgecushen
 url_code: ''
-url_pdf: 'https://github.com/luizalober/portfolio/blob/8f3acf4ce3e7a7a58d65fb5faa1ed606baa74f3a/static/uploads/certificates/Certificado%20-%20Autor%20Luiza%20Lober%20de%20Souza%20Piva.pdf'
+url_pdf: 'https://github.com/luizalober/portfolio/blob/00e2ec4f04d6549a043c24d7683346baed9a8d18/static/uploads/certificates/schoolneuroscience.pdf'
 url_slides: ''
 url_video: ''
 ---
