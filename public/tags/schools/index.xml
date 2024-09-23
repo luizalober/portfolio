@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Schools | Luiza Lober (portfolio)</title>
+    <link>http://localhost:1313/tags/schools/</link>
+      <atom:link href="http://localhost:1313/tags/schools/index.xml" rel="self" type="application/rss+xml" />
+    <description>Schools</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 22 May 2023 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Schools</title>
+      <link>http://localhost:1313/tags/schools/</link>
+    </image>
+    
+    <item>
+      <title>School on Nonlinear Dynamics, Complex Networks, Information Theory and Machine Learning in Neuroscience</title>
+      <link>http://localhost:1313/event/ift2/</link>
+      <pubDate>Mon, 22 May 2023 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/event/ift2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
