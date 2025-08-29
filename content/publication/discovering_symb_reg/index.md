@@ -1,12 +1,12 @@
 ---
-title: "Discovering equations from data: symbolic regression in dynamical systems"
+title: "(pre-print) Discovering equations from data: symbolic regression in dynamical systems"
 authors:
 - Beatriz Brum
 - admin
 - Isolde Previdelli
 - Francisco A. Rodrigues
 date: "2025-08-01T00:00:00Z"
-doi: https://arxiv.org/abs/2508.20257
+doi: 10.48550/arXiv.2508.20257
 
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"

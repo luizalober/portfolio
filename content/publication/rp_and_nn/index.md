@@ -1,5 +1,5 @@
 ---
-title: "(Pre-print) Predictive Non-linear Dynamics via Neural Networks and Recurrence Plots"
+title: "Parameter inference in nonlinear dynamical systems via recurrence plots and convolutional neural networks"
 authors:
 - admin
 - Francisco A. Rodrigues
@@ -8,7 +8,7 @@ author_notes:
 - "Equal contribution"
 - "Equal contribution"
 date: "2024-11-01T00:00:00Z"
-doi: https://doi.org/10.1103/wz7j-lzvs
+doi: 10.1103/wz7j-lzvs
 
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2017-01-01T00:00:00Z"
@@ -22,7 +22,7 @@ publication_types: ["article-journal"]
 publication: "*Physical Review E*"
 publication_short: ""
 
-abstract: Predicting and characterizing diverse non-linear behaviors in dynamical systems is a complex challenge, especially due to the inherently presence of chaotic dynamics. Current forecasting methods are reliant on system-specific knowledge or heavily parameterized models, which can be associated with a variety of drawbacks including critical model assumptions, uncertainties in their estimated input hyperparameters, and also being computationally intensive. Moreover, even when combined with recurrence analyses, these approaches are typically constrained to chaos identification, rather than parameter inference. In this work, we address these challenges by proposing a methodology that uses recurrence plots to train convolutional neural networks with the task of estimating the defining control parameters of two distinct non-linear systems, those being (i) the Logistic map and (ii) the Standard map. By focusing on the neural networks' ability to recognize patterns within recurrence plots, we demonstrate accurate parameter recovery, achieving fairly confident levels of prediction for both systems. This method not only provides a robust approach to predicting diverse non-linear dynamics but also opens up new possibilities for the automated characterization of similar non-linear dynamical systems.
+abstract: Inferring control parameters in nonlinear dynamical systems is an important task in analyzing general dynamical behaviors, particularly in the presence of inherently deterministic chaos. Traditional approaches often rely on system-specific models and involve heavily parametrized formulations, which can limit their general applicability. In this study, we present a methodology that employs recurrence plots as structured representations of nonlinear trajectories, which are then used to train convolutional neural networks to infer the values of the control parameter associated with the analyzed trajectories. We focus on two representative nonlinear systems, namely, the logistic map and the standard map, and show that our approach enables accurate estimation of the parameters governing their dynamics. When compared to regression models trained directly on raw time-series data, the use of recurrence plots yields significantly more robust results. Although the methodology does not aim to predict future states explicitly, we argue that accurate parameter inference, when combined with predetermined initial conditions, enables the reconstruction of a system's evolution due to its deterministic nature. These findings highlight the potential of recurrence-based learning frameworks for the automated identification and characterization of nonlinear dynamical behaviors.
  
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
