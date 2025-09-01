@@ -9,9 +9,12 @@ name_pronunciation:
 first_name: Luiza
 last_name: Lober
 
+# Pronouns (optional)
+pronouns: she/her
+
 # Status emoji
 status:
-  icon: 
+  icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -25,7 +28,7 @@ role: PhD candidate
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: University of São Paulo (USP)
-    url: https://luizalober.github.io/
+    url: https://www.icmc.usp.br/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -165,4 +168,4 @@ awards:
 
 ## About Me
 
-I'm currently working towards my PhD at University of São Paulo (USP, Brazil), previously having obtained my bachelor's and master's degree in physics at UNICAMP. The focus of my research, in the area of complex systems, is on characterizing chaotic dynamics, epidemics and dynamics in economics through supervised models and network properties. I look forward to apply physical, statistical and data-oriented modeling to non-linear dynamics!
+I'm currently working towards my PhD at University of São Paulo (USP, Brazil), previously having obtained my bachelor's and master's degree in physics at UNICAMP. The focus of my research, in the area of complex systems, is on characterizing non-linear dynamics through supervised models and network properties. I look forward to apply physical, statistical and data-oriented modeling to various phenomena!

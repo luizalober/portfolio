@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2022-10-24
+date: 2025-08-31
 type: landing
 
 design:
@@ -12,7 +12,7 @@ sections:
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin		#NAO MEXER.
+      username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
@@ -20,20 +20,36 @@ sections:
         url: https://github.com/luizalober/portfolio/blob/8f3acf4ce3e7a7a58d65fb5faa1ed606baa74f3a/static/uploads/resume.pdf
     design:
       css_class: dark
+      # Avatar customization
+      avatar:
+        size: medium  # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: circle # Options: circle (default), square, rounded
       background:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: networks.jpg
+          filename: network.png
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
+  - block: markdown
+#    content:
+#      title: '📚 My Research'
+#      subtitle: ''
+#      text: |-
+#        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+#
+#        I apply a range of qualitative and quantitative methods to comprehensively investigate the #role of science and technology in the economy.
+#        
+#        Please reach out to collaborate 😃
+#    design:
+#      columns: '1'
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Featured publications
       filters:
         folders:
           - publication
@@ -43,7 +59,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Publications
+      title: Recent Publications
       text: ""
       filters:
         folders:
@@ -54,11 +70,40 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Talks and Posters
+      title: Recent & Upcoming Talks
       filters:
         folders:
           - event
     design:
       view: article-grid
       columns: 1
+  - block: collection
+    id: news
+    content:
+      title: Recent news
+      subtitle: ''
+      text: ''
+      # Page type to display. E.g. post, talk, publication...
+      page_type: post
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: date-title-summary
+      # Reduce spacing
+      spacing:
+        padding: [0, 0, 0, 0]
 ---

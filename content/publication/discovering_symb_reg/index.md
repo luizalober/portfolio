@@ -5,7 +5,7 @@ authors:
 - admin
 - Isolde Previdelli
 - Francisco A. Rodrigues
-date: "2025-08-01T00:00:00Z"
+date: "2025-08-29T00:00:00Z"
 doi: 10.48550/arXiv.2508.20257
 
 # Schedule page publish date (NOT publication's date).

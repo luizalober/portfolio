@@ -14,8 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: ''
-    twitter: ''
+    description: 'Luiza Lobers Personal portfolio'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -49,12 +48,12 @@ footer:
 
 # Localization
 locale:
-  date_format: '2 Jan, 2006'
+  date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
 
 # Site features
 features:
   math:
-    enable: true
+    enable: false
   privacy_pack:
     enable: false
