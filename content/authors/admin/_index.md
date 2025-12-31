@@ -73,10 +73,7 @@ education:
     summary: |
       Universitary extension on Data Science and Machine Learning tools and applications.
 
-      **For the documentation of the final project**, see "Team Gold Retriever's solution to the RSNA-MICCAI Brain tumor radiogenomic classification competition @Kaggle".
-    button:
-      text: 'Course record & scores available (pt-br, contact me for more information)'
-      url: 'https://github.com/luizalober/portfolio/blob/8f3acf4ce3e7a7a58d65fb5faa1ed606baa74f3a/static/uploads/MDC-certificado_digital.pdf'
+      **For the documentation of the final project**, see "Team Gold Retriever's solution to the RSNA-MICCAI Brain tumor radiogenomic classification competition @Kaggle". Course record & scores are available upon request.
   - area: MSc. Physics
     institution: State University of Campinas (UNICAMP)
     date_start: 2020-03-01
